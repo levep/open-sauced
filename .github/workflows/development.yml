@@ -1,13 +1,18 @@
 name: Development
 
 on:
-  pull_request:
-    types:
-      - opened
-      - edited
-      - synchronize
-      - reopened
-  workflow_call:
+  push:
+    branches:
+      - '**'
+
+# on:
+#   pull_request:
+#     types:
+#       - opened
+#       - edited
+#       - synchronize
+#       - reopened
+#   workflow_call:
 
 jobs:
   test:
