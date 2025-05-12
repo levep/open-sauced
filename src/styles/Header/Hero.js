@@ -5,7 +5,7 @@ import MEDIA from "../mediaTemplates";
 const Hero = styled.section`
   padding-left: 5rem;
   padding-right: 5rem;
-  padding-top: 36px;
+  padding-top: 35px;
   margin: auto;
   overflow-y: hidden;
 
